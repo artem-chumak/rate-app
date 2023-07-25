@@ -22,6 +22,7 @@ a {
 :root {
 	--color-background-main: #F5F6F8;
 	--color-primary: #7653FC;
+	--color-primary-hover: #633DFB;
 	--text-color-black: #3B434E;
 	--text-color-green: #1DC47E;
 	--text-color-white: #FFF;
@@ -29,4 +30,5 @@ a {
 	--text-color-grey-placeholder: #A4A4A4;
 	--text-color-grey-menu: #787D85;
 	--font-family: "Noto Sans", sans-serif;
+	--ghost-btn-border-color: #EBEBEB;
 }
