@@ -31,4 +31,8 @@ a {
 	--text-color-grey-menu: #787D85;
 	--font-family: "Noto Sans", sans-serif;
 	--ghost-btn-border-color: #EBEBEB;
+	--color-red: #DE0000;
+	--color-grey-tag-bg: #B3C0D9;
+	--color-green-tag-bg: #C8F8E4;
+	--color-green-tag-text: #1DC37E;
 }
