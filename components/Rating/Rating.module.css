@@ -1,0 +1,13 @@
+.filled {
+	fill: var(--color-primary);
+}
+
+.wrapper {
+	display: flex;
+	column-gap: 5px;
+	padding: 6px;
+}
+
+.editable {
+	cursor: pointer;
+}
