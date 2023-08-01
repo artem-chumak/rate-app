@@ -1,0 +1,73 @@
+/* .footer {
+	min-height: 72px;
+	background-color: #7653FC;
+	color: white;
+	display: flex;
+	padding: 20px 32px;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 40px;
+}
+
+.copy {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.linksbox {
+	display: flex;
+	align-items: center;
+	column-gap: 40px;
+}
+
+.link {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+
+@media (max-width: 765px) {
+	.footer {
+		flex-direction: column;
+		row-gap: 20px;
+	}
+
+	.copy {
+		text-align: center;
+	}
+
+	.linksbox {
+		flex-direction: column;
+		row-gap: 20px;
+	}
+
+	.link {
+		text-align: center;
+	}
+} */
+
+/*! это в комментариях моя верстка на флексах, */
+
+/*! оставил, чтобы сравнить потом */
+
+.footer {
+  display: grid;
+  padding: 25px 30px;
+  background: var(--color-primary);
+  gap: 10px 40px;
+  grid-template-columns: 1fr auto auto;
+  color: var(--text-color-white);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer a:hover {
+  color: var(--text-color-grey-placeholder);
+}
+
+@media (max-width: 765px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}
